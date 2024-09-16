@@ -1,3 +1,6 @@
+const prompt = require('prompt-sync')
+  const entrada = prompt('');
+
 const nomeCompleto = "Miguel de Mello Bomrruk";
 const anoNascimento = 2006;
 let anoAtual = 2024;
@@ -19,7 +22,15 @@ const listaDeDestinos = new Array(
   "Paris",
   "cuba"
 );
-
+var idadeComprador = entrada("Qual sua idade?");
+var nomeComprador = entrada("Qual seu nome?");  
+if(idadeComprador >= 18) {
+  console.log("Ola Senhor(a) " + nomeComprador)
+  console.log("Comprador maior de idade");
+  console.log("Destinos disṕniveis: " + listaDeDestinos) 
+  
+;
+}
 console.log(listaDeDestinos);
 console.log(listaDeDestinos[3]);
 listaDeDestinos.push("Coronel Vivida");
@@ -30,6 +41,10 @@ listaDeDestinos.push("Ponta grossa");
 console.log(listaDeDestinos);
 listaDeDestinos.push("Cabo Frio");
 console.log(listaDeDestinos);
+
+if(idadeComprador <= 18)
+console.log("O senhor(a))não é maior de idade")
+
 
 
 
