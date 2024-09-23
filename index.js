@@ -28,7 +28,8 @@ if(idadeComprador >= 18) {
   console.log("Ola Senhor(a) " + nomeComprador)
   console.log("Comprador maior de idade");
   console.log("Destinos disṕniveis: " + listaDeDestinos) 
-  
+
+
 ;
 }
 console.log(listaDeDestinos);
@@ -43,12 +44,17 @@ listaDeDestinos.push("Cabo Frio");
 console.log(listaDeDestinos);
 
 if(idadeComprador <= 18)
-console.log("O senhor(a))não é maior de idade")
+console.log("O senhor(a)não é maior de idade")
 
+var contador= 0;
+while(contador <9){
+console.log(listaDeDestinos[contador]);  
+  contador++;
 
-
-
-
+  
+}
+var destino = entrada("Digite um numero que corresponde ao destino(0-8)");
+console.log(`destino selecionado: ${listaDeDestinos[destino]}`);
 
 
 
