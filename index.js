@@ -76,7 +76,7 @@ console.log(listaDeDestinos[contador]);
 var destino = entrada("Digite um numero que corresponde ao destino(0-8)");
 console.log(`destino selecionado: ${listaDeDestinos[destino]}`);
 
-
+//tive que enviar denovo 30/09/2024
 
 
 
