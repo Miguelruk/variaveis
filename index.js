@@ -19,9 +19,22 @@ anoAtual = anoAtual + 1;
 
 console.log("Eu vou fazer " + idade + " anos, ano que vem, em " + anoAtual + ". Quero estar cursando engenharia de software, e pretendo me formar em " + anoFormatura);
 
+console.log("")
+console.log("")
 
 
 //Agência de viagens Hawaii Paris China Russia Cuba
+
+console.log("__________________________________________________________________")
+console.log(" ")
+console.log("                 Bem vindo a Bomrruk Airlines!")
+console.log(" ")
+console.log("           B     O     M     R     R     U     K ");
+console.log(" ")
+console.log(" ")
+console.log("----------------------agência-de-viagens--------------------------");
+console.log("__________________________________________________________________")
+
 const listaDeDestinos = new Array(
   "Hawaii",
   "Russia",
@@ -35,13 +48,14 @@ var idadeComprador = entrada("Qual sua idade?");
 if(idadeComprador >= 18) {
   console.log("Ola Senhor(a) " + nomeComprador);
   console.log("Comprador maior de idade");
+  console.log(" ")
   console.log("Destinos disṕniveis: " + listaDeDestinos);
-
+  console.log(" ")
 
 }
 
 console.log(listaDeDestinos);
-console.log(listaDeDestinos[3]);
+
 listaDeDestinos.push("Austria");
 console.log(listaDeDestinos);
 listaDeDestinos.push("Campo Mourão");
@@ -54,10 +68,14 @@ console.log(listaDeDestinos);
 const LoginCerto = "Miguel";
 const SenhaCerta = "Miguel123";
 
+console.log("__________________________________________________________________")
+
 var login = entrada("Digite seu login: ");
 var senha = entrada("Digite sua senha: ");
 while (login != LoginCerto || senha != SenhaCerta){
   console.log ("Login ou senha incorretos")
+  console.log("__________________________________________________________________")
+
   login = entrada("Digite o seu login:");
   senha = entrada("Digite sua senha:")
 }
@@ -76,7 +94,7 @@ console.log(listaDeDestinos[contador]);
 var destino = entrada("Digite um numero que corresponde ao destino(0-8)");
 console.log(`destino selecionado: ${listaDeDestinos[destino]}`);
 
-//tive que enviar denovo 30/09/2024
+
 
 
 
